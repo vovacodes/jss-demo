@@ -18,4 +18,4 @@ What to cover:
 
 Bonus track
 
-- [ ] assets co-location support
+- [x] assets co-location support
