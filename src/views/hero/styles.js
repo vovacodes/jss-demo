@@ -1,4 +1,4 @@
-import { colors } from '../../styles';
+import { colors, mediaBreakpoints } from '../../styles';
 
 export default {
 
@@ -19,6 +19,12 @@ export default {
     fontFamily: 'StillTime',
     fontSize: '90px',
     color: colors.primary
+  },
+
+  [`@media (max-width: ${mediaBreakpoints.mobile})`]: {
+    heading: {
+      textShadow: '4px 3px black'
+    }
   }
 
 };
