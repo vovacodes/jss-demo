@@ -1,5 +1,6 @@
 JSS Demo
 ====================
+![](/preview.png?raw=true)
 
 To run the project:
 
